@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 15px 400 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
